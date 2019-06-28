@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta name = "description" content="This is an example.">
+		<title = "JavaScript Calculator">	
+		</title> 
+	</head>
+	<body>
+		This is a JS Calculator App
+		<form>
+			Value 1: <input type="text" id="value1"> <br>
+			Value 2: <input type="text" id="value2"> <br>
+			Operator: 
+			<select id="operator">
+				<option value="add">Add</option>
+				<option value="min">Minus</option>
+				<option value="div">Divide</option>
+				<option value="mul">Multiply</option>
+			</select>
+			<button type="button">Calculate</button>
+		</form>
+	</body>
+	<script src="main.js">
+	</script>
+</html>
